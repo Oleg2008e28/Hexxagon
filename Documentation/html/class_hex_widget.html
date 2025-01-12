@@ -1,0 +1,329 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="ru">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.13.1"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Гексагон: Класс HexWidget</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<script type="text/javascript" src="clipboard.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="cookie.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+  $(function() { init_search(); });
+/* @license-end */
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectalign">
+   <div id="projectname">Гексагон
+   </div>
+  </td>
+    <td>        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <span id="MSearchSelect"                onmouseover="return searchBox.OnSearchSelectShow()"                onmouseout="return searchBox.OnSearchSelectHide()">&#160;</span>
+          <input type="text" id="MSearchField" value="" placeholder="Поиск" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.svg" alt=""/></a>
+          </span>
+        </div>
+</td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Создано системой Doxygen 1.13.1 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+/* @license-end */
+</script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() { codefold.init(0); });
+/* @license-end */
+</script>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function(){initNavTree('class_hex_widget.html',''); initResizable(true); });
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">Загрузка...</div>
+<div class="SRStatus" id="Searching">Поиск...</div>
+<div class="SRStatus" id="NoMatches">Не найдено</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#pub-slots">Открытые слоты</a> &#124;
+<a href="#signals">Сигналы</a> &#124;
+<a href="#pub-methods">Открытые члены</a> &#124;
+<a href="class_hex_widget-members.html">Полный список членов класса</a>  </div>
+  <div class="headertitle"><div class="title">Класс HexWidget</div></div>
+</div><!--header-->
+<div class="contents">
+
+<p>The <a class="el" href="class_hex_widget.html" title="The HexWidget class Класс игрового поля для игры гексогон.">HexWidget</a> class Класс игрового поля для игры гексогон.  
+ <a href="#details">Подробнее...</a></p>
+
+<p><code>#include &lt;<a class="el" href="hexwidget_8h_source.html">hexwidget.h</a>&gt;</code></p>
+<div class="dynheader">
+Граф наследования:HexWidget:</div>
+<div class="dyncontent">
+ <div class="center">
+  <img src="class_hex_widget.png" alt=""/>
+ </div></div>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-slots" name="pub-slots"></a>
+Открытые слоты</h2></td></tr>
+<tr class="memitem:aafa17e2dff2cc177204d8abc7c821b75" id="r_aafa17e2dff2cc177204d8abc7c821b75"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aafa17e2dff2cc177204d8abc7c821b75">setField</a> (QVector&lt; int8_t &gt; &amp;newField)</td></tr>
+<tr class="memdesc:aafa17e2dff2cc177204d8abc7c821b75"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="#aafa17e2dff2cc177204d8abc7c821b75" title="HexWidget::setField Метод установки состояния игрового поля.">HexWidget::setField</a> Метод установки состояния игрового поля.  <br /></td></tr>
+<tr class="separator:aafa17e2dff2cc177204d8abc7c821b75"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1952d8522929a4609df51a336136987c" id="r_a1952d8522929a4609df51a336136987c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1952d8522929a4609df51a336136987c">setMoveCells</a> (QVector&lt; int8_t &gt; &amp;addVec, QVector&lt; int8_t &gt; &amp;transferVec)</td></tr>
+<tr class="memdesc:a1952d8522929a4609df51a336136987c"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="#a1952d8522929a4609df51a336136987c" title="HexWidget::setMoveCells Метод устанавливает значения ячеек доступных для хода игрока.">HexWidget::setMoveCells</a> Метод устанавливает значения ячеек доступных для хода игрока.  <br /></td></tr>
+<tr class="separator:a1952d8522929a4609df51a336136987c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8431c0c8ed673d7cfd01bd5585bfc2e5" id="r_a8431c0c8ed673d7cfd01bd5585bfc2e5"><td class="memItemLeft" align="right" valign="top"><a id="a8431c0c8ed673d7cfd01bd5585bfc2e5" name="a8431c0c8ed673d7cfd01bd5585bfc2e5"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>clearAvailableMove</b> ()</td></tr>
+<tr class="memdesc:a8431c0c8ed673d7cfd01bd5585bfc2e5"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="#a8431c0c8ed673d7cfd01bd5585bfc2e5" title="HexWidget::clearAvailableMove Метод отмены выделения ячеек доступных ходов.">HexWidget::clearAvailableMove</a> Метод отмены выделения ячеек доступных ходов. <br /></td></tr>
+<tr class="separator:a8431c0c8ed673d7cfd01bd5585bfc2e5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ada5b4a54cc489e22d7f4a44458322fb0" id="r_ada5b4a54cc489e22d7f4a44458322fb0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ada5b4a54cc489e22d7f4a44458322fb0">makeMove</a> (int beginIndex, int newIndex, int8_t player, bool clearPosition)</td></tr>
+<tr class="memdesc:ada5b4a54cc489e22d7f4a44458322fb0"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="#ada5b4a54cc489e22d7f4a44458322fb0" title="HexWidget::makeMove Метод выполнения хода на виджете.">HexWidget::makeMove</a> Метод выполнения хода на виджете.  <br /></td></tr>
+<tr class="separator:ada5b4a54cc489e22d7f4a44458322fb0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="signals" name="signals"></a>
+Сигналы</h2></td></tr>
+<tr class="memitem:a7d02c7e510393b0283f0b80d2313d553" id="r_a7d02c7e510393b0283f0b80d2313d553"><td class="memItemLeft" align="right" valign="top"><a id="a7d02c7e510393b0283f0b80d2313d553" name="a7d02c7e510393b0283f0b80d2313d553"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>transmitIndex</b> (int index)</td></tr>
+<tr class="separator:a7d02c7e510393b0283f0b80d2313d553"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
+Открытые члены</h2></td></tr>
+<tr class="memitem:afe21a37aa0945738d0ce29c146941517" id="r_afe21a37aa0945738d0ce29c146941517"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afe21a37aa0945738d0ce29c146941517">HexWidget</a> (QWidget *parent=nullptr)</td></tr>
+<tr class="memdesc:afe21a37aa0945738d0ce29c146941517"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="#afe21a37aa0945738d0ce29c146941517" title="HexWidget::HexWidget Конструктор класса.">HexWidget::HexWidget</a> Конструктор класса.  <br /></td></tr>
+<tr class="separator:afe21a37aa0945738d0ce29c146941517"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a890b7699f8675eb184f274e16480243c" id="r_a890b7699f8675eb184f274e16480243c"><td class="memItemLeft" align="right" valign="top"><a id="a890b7699f8675eb184f274e16480243c" name="a890b7699f8675eb184f274e16480243c"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>~HexWidget</b> ()</td></tr>
+<tr class="memdesc:a890b7699f8675eb184f274e16480243c"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="#a890b7699f8675eb184f274e16480243c" title="HexWidget::~HexWidget Деструктор класса.">HexWidget::~HexWidget</a> Деструктор класса. <br /></td></tr>
+<tr class="separator:a890b7699f8675eb184f274e16480243c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">Подробное описание</h2>
+<div class="textblock"><p>The <a class="el" href="class_hex_widget.html" title="The HexWidget class Класс игрового поля для игры гексогон.">HexWidget</a> class Класс игрового поля для игры гексогон. </p>
+</div><h2 class="groupheader">Конструктор(ы)</h2>
+<a id="afe21a37aa0945738d0ce29c146941517" name="afe21a37aa0945738d0ce29c146941517"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afe21a37aa0945738d0ce29c146941517">&#9670;&#160;</a></span>HexWidget()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">HexWidget::HexWidget </td>
+          <td>(</td>
+          <td class="paramtype">QWidget *</td>          <td class="paramname"><span class="paramname"><em>parent</em></span><span class="paramdefsep"> = </span><span class="paramdefval">nullptr</span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel explicit">explicit</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p><a class="el" href="#afe21a37aa0945738d0ce29c146941517" title="HexWidget::HexWidget Конструктор класса.">HexWidget::HexWidget</a> Конструктор класса. </p>
+<dl class="params"><dt>Аргументы</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">parent</td><td>Указатель на родительский виджет. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<h2 class="groupheader">Методы</h2>
+<a id="ada5b4a54cc489e22d7f4a44458322fb0" name="ada5b4a54cc489e22d7f4a44458322fb0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ada5b4a54cc489e22d7f4a44458322fb0">&#9670;&#160;</a></span>makeMove</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void HexWidget::makeMove </td>
+          <td>(</td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>beginIndex</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>NewIndex</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int8_t</td>          <td class="paramname"><span class="paramname"><em>Player</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>clearPosition</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel slot">slot</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p><a class="el" href="#ada5b4a54cc489e22d7f4a44458322fb0" title="HexWidget::makeMove Метод выполнения хода на виджете.">HexWidget::makeMove</a> Метод выполнения хода на виджете. </p>
+<dl class="params"><dt>Аргументы</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">beginIndex</td><td>Индекс ячейки фишки, выполняющей ход. </td></tr>
+    <tr><td class="paramname">NewIndex</td><td>Индекс ячейки в которую выполняется ход. </td></tr>
+    <tr><td class="paramname">Player</td><td>Игрок, выполняющий ход. </td></tr>
+    <tr><td class="paramname">clearPosition</td><td>Флаг, определяющий необходимость очистки ячейки. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="aafa17e2dff2cc177204d8abc7c821b75" name="aafa17e2dff2cc177204d8abc7c821b75"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aafa17e2dff2cc177204d8abc7c821b75">&#9670;&#160;</a></span>setField</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void HexWidget::setField </td>
+          <td>(</td>
+          <td class="paramtype">QVector&lt; int8_t &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>newField</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel slot">slot</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p><a class="el" href="#aafa17e2dff2cc177204d8abc7c821b75" title="HexWidget::setField Метод установки состояния игрового поля.">HexWidget::setField</a> Метод установки состояния игрового поля. </p>
+<dl class="params"><dt>Аргументы</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">newField</td><td>Новое состояние игрового поля. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a1952d8522929a4609df51a336136987c" name="a1952d8522929a4609df51a336136987c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1952d8522929a4609df51a336136987c">&#9670;&#160;</a></span>setMoveCells</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void HexWidget::setMoveCells </td>
+          <td>(</td>
+          <td class="paramtype">QVector&lt; int8_t &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>newAdd</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">QVector&lt; int8_t &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>newTtransfer</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel slot">slot</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p><a class="el" href="#a1952d8522929a4609df51a336136987c" title="HexWidget::setMoveCells Метод устанавливает значения ячеек доступных для хода игрока.">HexWidget::setMoveCells</a> Метод устанавливает значения ячеек доступных для хода игрока. </p>
+<dl class="params"><dt>Аргументы</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">newAdd</td><td>Вектор индексов ячеек доступных для ближнего хода. </td></tr>
+    <tr><td class="paramname">newTtransfer</td><td>Вектор индексов ячеек доступных для дальнего хода. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<hr/>Объявления и описания членов классов находятся в файлах:<ul>
+<li>Source/HexxagonApplication/<a class="el" href="hexwidget_8h_source.html">hexwidget.h</a></li>
+<li>Source/HexxagonApplication/<a class="el" href="hexwidget_8cpp.html">hexwidget.cpp</a></li>
+</ul>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="class_hex_widget.html">HexWidget</a></li>
+    <li class="footer">Создано системой <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.13.1 </li>
+  </ul>
+</div>
+</body>
+</html>
